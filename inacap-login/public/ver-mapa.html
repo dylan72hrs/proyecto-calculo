@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Mapa en Tiempo Real</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="ver-mapa-background">
+    <div class="header">
+        <div class="back-button" onclick="history.back()">&#8592;</div>
+    </div>
+    <div id="fotos-mapa-container"></div>
+    <script>
+        window.onload = function() {
+            const fotosContainer = document.getElementById('fotos-mapa-container');
+            const fotos = JSON.parse(localStorage.getItem('fotos'));
+            if (fotos) {
+                fotos.forEach(foto => {
+                    const newImage = document.createElement('img');
+                    newImage.src = foto.src;
+                    newImage.className = 'uploaded-image';
+                    fotosContainer.appendChild(newImage);
+                });
+            }
+        };
+    </script>
+</body>
+</html>

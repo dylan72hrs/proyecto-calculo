@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acceso Materiales</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="acceso-materiales-background">
+    <div class="acceso-materiales-container">
+        <h1>Acceso a Materiales</h1>
+        <textarea id="detalle" placeholder="Detalla lo que quieres"></textarea>
+        <div class="fecha-container">
+            <input type="date" id="fecha">
+            <input type="time" id="hora">
+        </div>
+        <label class="switch">
+            <input type="checkbox" id="toggle-publicacion">
+            <span class="slider"></span>
+        </label>
+        <div id="publicacion-container" style="display:none;">
+            <div class="agregar-fotos">
+                <label for="foto-upload" class="foto-label">Agregar fotos</label>
+                <input type="file" id="foto-upload" style="display:none;">
+            </div>
+            <input type="text" id="titulo" placeholder="Título">
+            <button onclick="agregarPublicacion()">Enviar</button>
+        </div>
+        <div id="historial-publicaciones">
+            <!-- Las publicaciones aparecerán aquí -->
+        </div>
+    </div>
+    <script src="acceso-materiales.js"></script>
+</body>
+</html>
+

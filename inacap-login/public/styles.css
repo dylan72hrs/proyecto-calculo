@@ -1,0 +1,1440 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #ff5733;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 5px 0;
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    width: 220px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: white;
+    margin-top: 10px;
+}
+
+.app-background {
+    background-color: #000000;
+    color: white;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.logout-button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.superhero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.superhero-item {
+    margin: 10px 0;
+    padding: 20px;
+    width: 80%;
+    cursor: pointer;
+}
+
+.reserva-espacios {
+    background-color: #ffff00;
+}
+
+.reporte-problemas {
+    background-color: #000000;
+    color: white;
+}
+
+.acceso-materiales {
+    background-color: #ffc0cb;
+}
+
+.calculadora-cientifica {
+    background-color: #0000ff;
+    color: white;
+}
+
+.mapa-reportes {
+    background-color: #00ff00;
+}
+
+.ayuda-matematicas {
+    background-color: #00ffff;
+}
+
+.reservas-body {
+    background-color: #ffdd57;
+    color: black;
+}
+
+.reservas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sala {
+    margin: 10px 0;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.ocupado {
+    color: red;
+}
+
+#reservation-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+.report-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.report-container div {
+    margin: 10px 0;
+}
+
+#report-history div {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    width: 80%;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.calculator-background {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+
+.calculator-container {
+    background-color: #001f3f; /* Color negro azulado */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.calculator-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+#calculadora {
+    background: #001f3f; /* Color negro azulado */
+    border: 0;
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto 0;
+}
+
+#calculadora td {
+    padding: 4px;
+}
+
+.cajita_valor {
+    background-color: #acff38; /* Puedes cambiar este color si lo deseas */
+    color: #467702; /* Puedes cambiar este color si lo deseas */
+    border: 1px solid #454545;
+    width: 100%;
+    height: 50px;
+    font-family: Arial, Helvetica;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.boton {
+    width: 60px;
+    height: 60px;
+    border: 1px solid #000;
+    font-family: Arial;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #001f3f; /* Color negro azulado */
+    color: white; /* Números en blanco */
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #001a35; /* Un poco más claro en hover */
+}
+
+.boton_largo {
+    width: 130px;
+    height: 60px;
+    border: 1px solid #000;
+    font-family: Arial;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #001f3f; /* Color negro azulado */
+    color: white; /* Números en blanco */
+    border-radius: 5px;
+}
+
+.funcion {
+    font-weight: bold;
+    color: #00bfff; /* Simbolos en azul claro */
+}
+
+input[type="button"]:hover {
+    background-color: #001a35; /* Un poco más claro en hover */
+}
+
+
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.acceso-materiales-background {
+    background-color: #800080; /* Morado */
+    color: white;
+}
+
+.acceso-materiales-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+textarea, input[type="date"], input[type="time"] {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.agregar-fotos {
+    margin: 10px;
+    padding: 10px;
+    border: 2px dashed white;
+    text-align: center;
+}
+
+#historial-publicaciones {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.publicacion {
+    border: 1px solid white;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.ayuda-matematicas-background {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.ayuda-matematicas-container {
+    background-color: #00CED1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.back-button {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.titulo .rojo {
+    color: red;
+}
+
+.boton-interactivo {
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    background-color: #000;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.boton-interactivo:hover {
+    background-color: #555;
+}
+
+.ofrecer-ensenar, .solicitar-ayuda {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    margin: 10px 0;
+    padding: 10px;
+    width: calc(100% - 22px);
+}
+
+.boton-enviar {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.publicacion {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border-radius: 5px;
+}
+
+.publicacion .esperando {
+    color: yellow;
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos de la página de inicio de sesión */
+.login-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #000;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de la segunda interfaz (app.html) */
+.app-container {
+    width: 360px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-item {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: #555;
+}
+
+.logout {
+    background-color: #ff3b1f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: #c32f13;
+}
+
+
+.index-background {
+    background: linear-gradient(to bottom, red 50%, white 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos de la página de inicio de sesión */
+.login-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #000;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de la segunda interfaz (app.html) */
+.app-background {
+    background-color: #000;
+    color: #fff;
+}
+
+.app-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 45%; /* Ajusta el tamaño de las celdas */
+    margin: 5px;
+    text-align: center;
+}
+
+.logout-container {
+    margin-top: 20px;
+}
+
+.logout {
+    background-color: #ff3b1f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: #c32f13;
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos de la página de inicio de sesión */
+.login-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    color: #000;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos de la segunda interfaz (app.html) */
+.app-background {
+    background-color: #000;
+    color: #fff;
+}
+
+.app-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 45%; /* Ajusta el tamaño de las celdas */
+    margin: 5px;
+    text-align: center;
+}
+
+.menu-item-ayudas {
+    background-color: #007bff; /* Color azul */
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1 1 45%; /* Ajusta el tamaño de las celdas */
+    margin: 5px;
+    text-align: center;
+}
+
+.logout-container {
+    margin-top: 20px;
+}
+
+.logout {
+    background-color: #ff3b1f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout:hover {
+    background-color: #c32f13;
+}
+
+
+
+/* estilos comunes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+}
+
+/* estilos para equipo-superheroe.html */
+.superhero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.superhero-item {
+    margin: 10px 0;
+    padding: 20px;
+    width: 80%;
+    cursor: pointer;
+}
+
+/* estilos para mapa-reportes.html */
+.mapa-reportes-container {
+    background-color: #00ff00;
+    padding: 70px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 24px;
+    color: #ff0000;
+}
+
+.title span {
+    color: #000000;
+}
+
+.back-button {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.report-form {
+    margin-top: 20px;
+}
+
+.uploaded-image {
+    max-width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+
+.comment {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ver-mapa-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0000ff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* estilos para ver-mapa.html */
+.ver-mapa-background {
+    background-color: #000000;
+    padding: 20px;
+}
+
+#fotos-mapa-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fotos-mapa-container img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+
+/* styles.css */
+
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.mapa-reportes-body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.mapa-reportes-container {
+    background-color: limegreen;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mapa-reportes-title {
+    margin-top: 0;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.red-text {
+    color: red;
+}
+
+.white-text {
+    color: white;
+}
+
+.report-form {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#upload-btn, #view-map-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#upload-btn:hover, #view-map-btn:hover {
+    background-color: darkblue;
+}
+
+#report-container {
+    margin-top: 20px;
+}
+
+/* Arrow styles */
+.arrow-back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+}
+
+
+
+
+
+.reservas-body {
+    background-color: #ffdd57;
+    color: black;
+}
+
+.reservas-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.sala {
+    margin: 10px 0;
+    padding: 20px;
+    width: 80%;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.ocupado {
+    color: red;
+}
+
+.disponible {
+    color: green;
+}
+
+.desplegable {
+    cursor: pointer;
+}
+
+.desplegable .opciones {
+    display: none;
+}
+
+.desplegable .opciones.mostrar {
+    display: block;
+}
+
+#reservation-form {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    color: #000;
+}
+
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.reservas-body {
+    background-color: #ffdd57;
+    color: black;
+}
+
+.reservas-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.menu-item {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+}
+
+button:hover + .dropdown-content {
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sala {
+    margin: 10px 0;
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.ocupado {
+    color: red;
+}
+
+
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.reservas-body {
+    background-color: #ffdd57;
+    color: black;
+}
+
+.reservas-container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.menu-item {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.dropdown-content p {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dropdown-content p:hover {
+    background-color: #ddd;
+}
+
+button:hover + .dropdown-content {
+    display: flex;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sala {
+    margin: 10px 0;
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.ocupado {
+    color: red;
+}
+
+
+.calculadora{
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #2980b9;
+    width: 300px;
+    height: 500px;
+    border-radius: 25px;
+}
+.calculadora td button{
+    display: block;
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+}
+#creditos{
+    display: block;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+    width: 300px;
+}
+#resultado{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 100px;
+    line-height: 100px;
+    background-color: #fff;
+    border-radius: 25px;
+    overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+body {
+    background-color: black;
+}
+
+header h1 {
+    color: white;
+    text-align: center;
+}
+
+main {
+    margin: 10px;
+    padding: 5px 7px 5px;
+}
+
+input {
+    text-align: right;
+    background-color: white;
+    width: 330px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+table {
+    display: inline-block;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.displaytable {
+    display: table;
+}
+
+.displaytable-cell {
+    display: table-cell;
+}
+  
+.button {
+    width: 60px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.blackbutton { 
+    background-color: black; 
+    color: white;
+}
+
+.greenbutton {
+    background-color: #91ff7d;
+}
+
+.greybutton {
+    background-color: #cccccc;
+}
+
+.bluebutton {
+    background-color: #6288f3;
+}
+
+.redbutton {
+    background-color: #f76767;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.menu-item {
+    background-color: grey;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    flex-grow: 1;
+    min-width: 180px;
+}
+
+#ayudas {
+    border-color: red;
+}
+
+h3 {
+    margin-top: 0;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 80%;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+p {
+    margin: 10px 0;
+}
+
+
+
+body {
+    background-color: black;
+}
+
+.report-container {
+    background-color: green;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: red;
+    font-size: 24px;
+}
+
+label {
+    color: black;
+    font-size: 18px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="file"] {
+    color: black;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button#add-report {
+    background-color: blue;
+    color: white;
+}
+
+button#view-map {
+    background-color: blue;
+    color: white;
+}
